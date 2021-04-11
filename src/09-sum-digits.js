@@ -10,8 +10,6 @@
  * For 91, the result should be 1 (9 + 1 = 10, 1 + 0 = 1)
  *
  */
-function getSumOfDigits(/* n */) {
-  throw new Error('Not implemented');
-}
+const getSumOfDigits = (n) => (n % 9 || 9);
 
 module.exports = getSumOfDigits;
